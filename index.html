@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CoolTech Pro - Professional AC Services at your doorstep. 24/7 online service, gas filling, installation & emergency support.">
+    <meta name="keywords" content="AC service, AC repair, gas filling, air conditioning, doorstep service">
+    <meta name="author" content="CoolTech Pro">
+    <title>CoolTech Pro - Professional AC Services | Doorstep & Online 24/7</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-snowflake"></i> CoolTech Pro
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Expert AC Services at Your Doorstep</h1>
+                <p>Professional Technicians | Gas Filling | Online Consultations | 24/7 Emergency Service</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Book Service Now</button>
+                    <button class="btn btn-secondary" onclick="document.getElementById('services').scrollIntoView({behavior: 'smooth'})">View Services</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <i class="fas fa-wind"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Premium Services</h2>
+            <p class="section-subtitle">Comprehensive AC Solutions for Complete Comfort</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>AC Repair & Maintenance</h3>
+                    <p>Professional repair and regular maintenance to keep your AC running efficiently. Quick diagnostics and same-day fixes available.</p>
+                    <span class="price">₹500 - ₹2000</span>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-spray-can"></i>
+                    <h3>Gas Filling & Recharge</h3>
+                    <p>Expert refrigerant filling and recharge services. We use certified cooling agents and ensure proper system pressure.</p>
+                    <span class="price">₹1500 - ₹3000</span>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Doorstep Service</h3>
+                    <p>Convenient on-site service at your home or office. Our technicians come fully equipped with tools and spare parts.</p>
+                    <span class="price">Free Service Call</span>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-laptop"></i>
+                    <h3>Online Consultation</h3>
+                    <p>Get expert advice online! Video call consultation with our technicians to diagnose issues and provide guidance.</p>
+                    <span class="price">₹200 - ₹500</span>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-wrench"></i>
+                    <h3>Installation Service</h3>
+                    <p>Professional AC unit installation with complete setup and testing. We handle all technical aspects professionally.</p>
+                    <span class="price">₹2000 - ₹5000</span>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-sparkles"></i>
+                    <h3>Cleaning & Servicing</h3>
+                    <p>Deep cleaning of AC filters, coils, and ducts. Regular servicing to improve efficiency and air quality.</p>
+                    <span class="price">₹800 - ₹1500</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard" class="dashboard">
+        <div class="container">
+            <h2>Service Dashboard</h2>
+            <p class="section-subtitle">Track Your Service Requests & Performance Metrics</p>
+            
+            <div class="dashboard-grid">
+                <!-- Stats Cards -->
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <div class="stat-icon services-icon">
+                            <i class="fas fa-clipboard-check"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h4>Today's Services</h4>
+                            <p class="stat-number">12</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon completed-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h4>Completed</h4>
+                            <p class="stat-number">850+</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon pending-icon">
+                            <i class="fas fa-hourglass-half"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h4>Pending</h4>
+                            <p class="stat-number">5</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon rating-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h4>Avg Rating</h4>
+                            <p class="stat-number">4.8/5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Services Table -->
+                <div class="services-table">
+                    <h3>Recent Service Requests</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Customer</th>
+                                <th>Service Type</th>
+                                <th>Date</th>
+                                <th>Status</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Rajesh Kumar</td>
+                                <td>AC Repair</td>
+                                <td>2024-08-10</td>
+                                <td><span class="status completed">Completed</span></td>
+                                <td>₹1,200</td>
+                            </tr>
+                            <tr>
+                                <td>Priya Singh</td>
+                                <td>Gas Filling</td>
+                                <td>2024-08-10</td>
+                                <td><span class="status completed">Completed</span></td>
+                                <td>₹2,000</td>
+                            </tr>
+                            <tr>
+                                <td>Amit Patel</td>
+                                <td>Installation</td>
+                                <td>2024-08-09</td>
+                                <td><span class="status completed">Completed</span></td>
+                                <td>₹4,500</td>
+                            </tr>
+                            <tr>
+                                <td>Neha Gupta</td>
+                                <td>Online Consultation</td>
+                                <td>2024-08-09</td>
+                                <td><span class="status pending">Pending</span></td>
+                                <td>₹300</td>
+                            </tr>
+                            <tr>
+                                <td>Vikram Singh</td>
+                                <td>Cleaning Service</td>
+                                <td>2024-08-08</td>
+                                <td><span class="status completed">Completed</span></td>
+                                <td>₹1,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Performance Chart -->
+                <div class="performance-chart">
+                    <h3>Monthly Performance</h3>
+                    <div class="chart-container">
+                        <div class="chart-bar">
+                            <div class="bar" style="height: 70%;"></div>
+                            <span>Jan</span>
+                        </div>
+                        <div class="chart-bar">
+                            <div class="bar" style="height: 85%;"></div>
+                            <span>Feb</span>
+                        </div>
+                        <div class="chart-bar">
+                            <div class="bar" style="height: 60%;"></div>
+                            <span>Mar</span>
+                        </div>
+                        <div class="chart-bar">
+                            <div class="bar" style="height: 90%;"></div>
+                            <span>Apr</span>
+                        </div>
+                        <div class="chart-bar">
+                            <div class="bar" style="height: 75%;"></div>
+                            <span>May</span>
+                        </div>
+                        <div class="chart-bar">
+                            <div class="bar" style="height: 95%;"></div>
+                            <span>Jun</span>
+                        </div>
+                        <div class="chart-bar">
+                            <div class="bar" style="height: 88%;"></div>
+                            <span>Jul</span>
+                        </div>
+                        <div class="chart-bar">
+                            <div class="bar" style="height: 92%;"></div>
+                            <span>Aug</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About CoolTech Pro</h2>
+                    <p>CoolTech Pro is a leading AC service provider dedicated to delivering exceptional cooling solutions. With over 10 years of experience in the HVAC industry, we've earned the trust of thousands of customers across major cities in India. Our mission is to ensure your comfort with professional, reliable, and affordable AC services.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Certified Technicians</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>24/7 Emergency Service</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>100% Satisfaction Guarantee</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Affordable Pricing</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Same Day Service</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Warranty on All Services</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>850+</h3>
+                        <p>Services Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>650+</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Customer Support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <p class="section-subtitle">What Our Happy Customers Say</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Excellent service! The technician arrived on time and fixed my AC in just 30 minutes. Very professional and courteous. Highly recommended!"</p>
+                    <h4>Rajesh Kumar</h4>
+                    <p class="location">Delhi</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Best AC service in town! They provided online consultation first, which helped me understand the issue. Then came for doorstep service. Amazing!"</p>
+                    <h4>Priya Singh</h4>
+                    <p class="location">Bangalore</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Got my AC gas filled and cleaned. The team is very knowledgeable and they explained everything clearly. Fair pricing too!"</p>
+                    <h4>Amit Patel</h4>
+                    <p class="location">Mumbai</p>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"24/7 emergency service saved me! My AC broke down on a hot night and they came within an hour. Truly reliable service!"</p>
+                    <h4>Neha Gupta</h4>
+                    <p class="location">Pune</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="section-subtitle">Book Your Service or Ask Any Questions</p>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91-9876543210</p>
+                            <p>Available 24/7</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@cooltechpro.com</p>
+                            <p>Response within 1 hour</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Service Areas</h4>
+                            <p>Serving major cities across India</p>
+                            <p>Doorstep & Online Service</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Your Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Select Service Type</option>
+                            <option value="repair">AC Repair</option>
+                            <option value="gas-filling">Gas Filling</option>
+                            <option value="installation">Installation</option>
+                            <option value="cleaning">Cleaning & Servicing</option>
+                            <option value="online-consultation">Online Consultation</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Describe Your Issue" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 CoolTech Pro - Professional AC Services. All rights reserved.</p>
+            <p>Doorstep Service | Online Consultation | Gas Filling | Emergency Support 24/7</p>
+            <div class="social-links">
+                <a href="https://facebook.com" title="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://wa.me/919876543210" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://instagram.com" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com" title="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
